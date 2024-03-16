@@ -3,79 +3,93 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Medina Diesel">
-	<header class="bg-[#f1f1f1]">
+	<header class="bg-[#f1f1f1] font-Mulish">
 		<nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-		  <div class="flex lg:flex-1">
-			<a href="#" class="-m-1.5 p-1.5">
-			  <span class="sr-only">Medina Diesel</span>
-			  <img class="h-10 w-auto" src="https://medinadiesel.com.pe/images/Logo1.png" alt="Medina Diesel">
-			</a>
-		  </div>
-		  <div class="flex lg:hidden">
-			<button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-			  <span class="sr-only">Open main menu</span>
-			  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-				<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-			  </svg>
-			</button>
-		  </div>
-		  <div class="hidden lg:flex lg:gap-x-4">
-			<a href="#" class="text-black hover:bg-white rounded-md px-3 py-2 text-sm font-medium w-36 flex justify-center">Locales</a>
-			<a href="#" class="text-black hover:bg-white rounded-md px-3 py-2 text-sm font-medium w-36 flex justify-center">Servicios</a>
-			<a href="#" class="text-black hover:bg-white rounded-md px-3 py-2 text-sm font-medium w-36 flex justify-center">Respuestas</a>
-			<a href="#" class="bg-white text-black rounded-md px-3 py-2 text-sm font-medium w-36 flex justify-center" aria-current="page">Blog</a>
-		  </div>
-		  <!-- Responsive	-->
-		  <!-- <div class="lg:hidden" role="dialog" aria-modal="true">
-			<div class="fixed inset-0 z-10"></div>
-			<div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-			  <div class="flex items-center justify-between">
-				<a href="#" class="-m-1.5 p-1.5">
-				  <span class="sr-only">Medina Diesel</span>
-				  <img class="h-8 w-auto" src="https://medinadiesel.com.pe/images/Logo1.png" alt="">
-				</a>
-				<button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-				  <span class="sr-only">Close menu</span>
+			<div class="flex lg:hidden">
+				<button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+				  <span class="sr-only">Open main menu</span>
 				  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 				  </svg>
 				</button>
 			  </div>
-			  <div class="mt-6 flow-root">
-				<div class="-my-6 divide-y divide-gray-500/10">
-				  <div class="space-y-2 py-6">
-					<a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Locales</a>
-					<a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Servicios</a>
-					<a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Respuestas</a>
-					<a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
-				  </div>
-				</div>
-			  </div>
+			<div class="flex lg:flex-1">
+				<a href="#" class="-m-1.5 p-1.5">
+				<span class="sr-only">Medina Diesel</span>
+				<img class="h-10 w-auto" src="https://medinadiesel.com.pe/images/Logo1.png" alt="Medina Diesel">
+				</a>
 			</div>
-		  </div> -->
+			<div class="hidden lg:flex lg:gap-x-4">
+				<a href="#" class="text-black hover:bg-white rounded-md px-3 py-2 text-sm font-medium w-36 flex justify-center">Locales</a>
+				<a href="#" class="text-black hover:bg-white rounded-md px-3 py-2 text-sm font-medium w-36 flex justify-center">Servicios</a>
+				<a href="#" class="text-black hover:bg-white rounded-md px-3 py-2 text-sm font-medium w-36 flex justify-center">Respuestas</a>
+				<a href="#" class="bg-white text-black rounded-md px-3 py-2 text-sm font-medium w-36 flex justify-center" aria-current="page">Blog</a>
+			</div>
+			<!-- Responsive	-->
+			<!-- <div class="lg:hidden" role="dialog" aria-modal="true">
+				<div class="fixed inset-0 z-10"></div>
+				<div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+				<div class="flex items-center justify-between">
+					<a href="#" class="-m-1.5 p-1.5">
+					<span class="sr-only">Medina Diesel</span>
+					<img class="h-8 w-auto" src="https://medinadiesel.com.pe/images/Logo1.png" alt="">
+					</a>
+					<button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+					<span class="sr-only">Close menu</span>
+					<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+					</button>
+				</div>
+				<div class="mt-6 flow-root">
+					<div class="-my-6 divide-y divide-gray-500/10">
+					<div class="space-y-2 py-6">
+						<a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Locales</a>
+						<a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Servicios</a>
+						<a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Respuestas</a>
+						<a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
+					</div>
+					</div>
+				</div>
+				</div>
+			</div> -->
 		</nav>
 	</header>
-	<main class="bg-[#f1f1f1]">
+	
+	<main class="bg-[#f1f1f1] font-Mulish">
 		<!-- Inicio -->
-		<div class="overflow-hidden py-24 sm:py-10">
+		<div class="overflow-hidden py-5">
 			<div class="mx-auto max-w-7xl px-6 lg:px-8">
-			  <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-				<div class="lg:pr-8 lg:pt-4">
-				  <div class="lg:max-w-lg">
-					<p class="font-semibold text-gray-900 sm:text-4xl"><strong class="text-[#ff4d3b]">Expertos</strong> en reparación de Inyectores Electrónicos y Bombas de Inyección Diesel</p>
-					<p class="mt-6 text-lg leading-8 text-gray-600">Con una trayectoria destacada en el sector, ofrecemos soluciones
-						avanzadas para la reparación de inyectores electrónicos y bombas
-						de inyección diésel, asegurando el <strong class="text-gray-900 font-bold">máximo rendimiento y eficiencia</strong>
-						de tu flota o vehículo.</p>
-				  </div>
+				<div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-2 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+					<div class="lg:pr-3 lg:pt-4">
+						<div class="lg:max-w-lg">
+							<p class="font-bold sm:font-semibold text-gray-900 text-2xl sm:text-2xl lg:text-4xl text-center lg:text-left"><strong class="text-[#ff4d3b]">Expertos</strong> en reparación de Inyectores Electrónicos y Bombas de Inyección Diesel</p>
+							<p class="mt-6 text-sm leading-6 sm:text-base lg:leading-8 text-gray-600 lg:text-lg text-justify lg:text-left">Con una trayectoria destacada en el sector, ofrecemos soluciones
+								avanzadas para la reparación de inyectores electrónicos y bombas
+								de inyección diésel, asegurando el <strong class="text-gray-900 font-bold">máximo rendimiento y eficiencia</strong>
+								de tu flota o vehículo.</p>
+						</div>
+					</div>
+					<!-- <div class="relative flex items-center">
+						<div id="carousel" class="flex overflow-hidden rounded-lg h-90 w-full">
+						  <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" class="object-cover w-full h-full"/>
+						  <img src="https://lh5.googleusercontent.com/p/AF1QipOJ4KHwqb97yEa2FTjkhwtCAmpZIN8r4ljy-P6n=w650-h486-k-no" class="object-cover w-full h-full"/>
+						</div>
+						<button id="prevBtn" class="absolute left-0 z-10 p-4">
+						  Anterior
+						</button>
+						<button id="nextBtn" class="absolute right-0 z-10 p-4">
+						  Siguiente
+						</button>
+					</div> -->
+					<img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="Product screenshot" class="w-[48 rem] max-w-auto rounded-xl sm:w-[57rem] md:-ml-4 lg:-ml-4" width="1442	" height="1442">
 				</div>
-				<img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="Product screenshot" class="w-[48 rem] max-w-auto rounded-xl sm:w-[57rem] md:-ml-4 lg:-ml-4" width="1442	" height="1442">
 			</div>
 		</div>
 		
 		<!-- Logos Marcas -->
-		<div class="container mx-auto text-center my-5 mb-20">
-			<div class="grid grid-cols-1 sm:grid-cols-6 gap-10 my-10">
+		<div class="container mx-auto text-center mb-20">
+			<div class="flex justify-around grid grid-cols-3 gap-5 sm:grid-cols-6 my-10 p-10 sm:p-0">
 				<div class="flex justify-center"><img src="https://i.pinimg.com/736x/dc/f1/eb/dcf1ebbb799d558f24b3aee771a6f40d.jpg" alt="Audi" class="rounded-lg w-20 h-20"></div>
 				<div class="flex justify-center"><img src="https://logolook.net/wp-content/uploads/2022/09/Bosch-Emblem.png" alt="Bosch" class="w-20 h-20"></div>
 				<div class="flex justify-center"><img src="https://i.pinimg.com/originals/62/29/21/622921553f7fb6bb98b2cdaba1eae58d.jpg" alt="Cat" class="rounded-lg w-20 h-20"></div>
@@ -86,138 +100,204 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 
 		<!-- Canal -->
-		<div class="bg-black text-white p-4 flex justify-between items-center mb-20">
+		<div class="bg-black text-white p-4 flex justify-between items-center mb-10 lg:mb-20 text-sm sm:text-base">
 			<div>
 			  <p><strong class="font-bold">¿Tienes más de 2 unidades, o eres empresa?</strong> Visita nuestro canal empresa -></p>
 			</div>
-			<button class="bg-white text-black border-2 px-12 py-2 rounded-full font-bold hover:bg-black hover:text-white hover:border-2 hover:border-white">Canal ></button>
+			<button class="bg-white text-black border-2 px-12 py-2 rounded-full font-bold hover:bg-black hover:text-white hover:border-2 hover:border-white">Canal</button>
 		</div>
 
 		<!-- Locales -->
-		<div class="container mx-auto p-4 mb-20">
+		<div class="container mx-auto p-4 mb-10 lg:mb-20">
 			<p class="text-2xl font-bold text-center mb-6">Encuentra el centro especializado y oficial más cercano</p>
-			<div class="grid grid-cols-3 gap-4">
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 				<!-- Sección Lima -->
 				<div class="bg-white p-4 shadow rounded-lg">
 					<img src="https://lh5.googleusercontent.com/p/AF1QipOJ4KHwqb97yEa2FTjkhwtCAmpZIN8r4ljy-P6n=w650-h486-k-no" alt="Lima" class="rounded-t-lg">
-					<ul class="text-gray-600">
-						<li class="text-xl font-semibold mt-2 b-2">Lima</li>
-						<li class="text-sm"><i class="fa-solid fa-map mr-2"></i>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</p></li>
-						<li class="text-sm"><i class="fa-solid fa-phone mr-2"></i>914187239</li>
-						<li class="text-sm mb-4"><i class="fa-solid fa-phone mr-2"></i>Tienda de Repuestos y Laboratorio Diesel!</p></li>
-					</ul>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					<div class="text-gray-600 mb-4">
+						<div class="text-xl font-semibold mt-2 b-2">Lima</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-map mr-2"></i></div>
+							<div>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>914187239</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>Tienda de Repuestos y Laboratorio Diesel!</div>
+						</div>
+					</div>
+					<div class="flex justify-center space-x-4">
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					</div>
 			  	</div>
 				<!-- Sección Chiclayo -->
 			  	<div class="bg-white p-4 shadow rounded-lg">
 					<img src="https://lh5.googleusercontent.com/p/AF1QipOJ4KHwqb97yEa2FTjkhwtCAmpZIN8r4ljy-P6n=w650-h486-k-no" alt="Chiclayo" class="rounded-t-lg">
-					<ul class="text-gray-600">
-						<li class="text-xl font-semibold mt-2 b-2">Chiclayo</li>
-						<li class="text-sm"><i class="fa-solid fa-map mr-2"></i>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</p></li>
-						<li class="text-sm"><i class="fa-solid fa-phone mr-2"></i>914187239</li>
-						<li class="text-sm mb-4"><i class="fa-solid fa-phone mr-2"></i>Tienda de Repuestos y Laboratorio Diesel!</p></li>
-					</ul>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					<div class="text-gray-600 mb-4">
+						<div class="text-xl font-semibold mt-2 b-2">Chiclayo</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-map mr-2"></i></div>
+							<div>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>914187239</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>Tienda de Repuestos y Laboratorio Diesel!</div>
+						</div>
+					</div>
+					<div class="flex justify-center space-x-4">
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					</div>
 			  	</div>
 			  	<!-- Sección Trujillo -->
 			  	<div class="bg-white p-4 shadow rounded-lg">
 					<img src="https://lh5.googleusercontent.com/p/AF1QipOJ4KHwqb97yEa2FTjkhwtCAmpZIN8r4ljy-P6n=w650-h486-k-no" alt="Trujillo" class="rounded-t-lg">
-					<ul class="text-gray-600">
-						<li class="text-xl font-semibold mt-2 b-2">Trujillo</li>
-						<li class="text-sm"><i class="fa-solid fa-map mr-2"></i>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</p></li>
-						<li class="text-sm"><i class="fa-solid fa-phone mr-2"></i>914187239</li>
-						<li class="text-sm mb-4"><i class="fa-solid fa-phone mr-2"></i>Tienda de Repuestos y Laboratorio Diesel!</p></li>
-					</ul>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					<div class="text-gray-600 mb-4">
+						<div class="text-xl font-semibold mt-2 b-2">Trujillo</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-map mr-2"></i></div>
+							<div>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>914187239</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>Tienda de Repuestos y Laboratorio Diesel!</div>
+						</div>
+					</div>
+					<div class="flex justify-center space-x-4">
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					</div>
 				</div>
 			  	<!-- Sección Trujillo -->
 			  	<div class="bg-white p-4 shadow rounded-lg">
 					<img src="https://lh5.googleusercontent.com/p/AF1QipOJ4KHwqb97yEa2FTjkhwtCAmpZIN8r4ljy-P6n=w650-h486-k-no" alt="Trujillo" class="rounded-t-lg">
-					<ul class="text-gray-600">
-						<li class="text-xl font-semibold mt-2 b-2">Trujillo</li>
-						<li class="text-sm"><i class="fa-solid fa-map mr-2"></i>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</p></li>
-						<li class="text-sm"><i class="fa-solid fa-phone mr-2"></i>914187239</li>
-						<li class="text-sm mb-4"><i class="fa-solid fa-phone mr-2"></i>Tienda de Repuestos y Laboratorio Diesel!</p></li>
-					</ul>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					<div class="text-gray-600 mb-4">
+						<div class="text-xl font-semibold mt-2 b-2">Trujillo</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-map mr-2"></i></div>
+							<div>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>914187239</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>Tienda de Repuestos y Laboratorio Diesel!</div>
+						</div>
+					</div>
+					<div class="flex justify-center space-x-4">
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					</div>
 				</div>
 			  	<!-- Sección Trujillo -->
 			  	<div class="bg-white p-4 shadow rounded-lg">
 					<img src="https://lh5.googleusercontent.com/p/AF1QipOJ4KHwqb97yEa2FTjkhwtCAmpZIN8r4ljy-P6n=w650-h486-k-no" alt="Trujillo" class="rounded-t-lg">
-					<ul class="text-gray-600">
-						<li class="text-xl font-semibold mt-2 b-2">Trujillo</li>
-						<li class="text-sm"><i class="fa-solid fa-map mr-2"></i>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</p></li>
-						<li class="text-sm"><i class="fa-solid fa-phone mr-2"></i>914187239</li>
-						<li class="text-sm mb-4"><i class="fa-solid fa-phone mr-2"></i>Tienda de Repuestos y Laboratorio Diesel!</p></li>
-					</ul>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					<div class="text-gray-600 mb-4">
+						<div class="text-xl font-semibold mt-2 b-2">Trujillo</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-map mr-2"></i></div>
+							<div>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>914187239</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>Tienda de Repuestos y Laboratorio Diesel!</div>
+						</div>
+					</div>
+					<div class="flex justify-center space-x-4">
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					</div>
 				</div>
 			  	<!-- Sección Trujillo -->
 				<div class="bg-white p-4 shadow rounded-lg">
 					<img src="https://lh5.googleusercontent.com/p/AF1QipOJ4KHwqb97yEa2FTjkhwtCAmpZIN8r4ljy-P6n=w650-h486-k-no" alt="Trujillo" class="rounded-t-lg">
-					<ul class="text-gray-600">
-						<li class="text-xl font-semibold mt-2 b-2">Trujillo</li>
-						<li class="text-sm"><i class="fa-solid fa-map mr-2"></i>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</p></li>
-						<li class="text-sm"><i class="fa-solid fa-phone mr-2"></i>914187239</li>
-						<li class="text-sm mb-4"><i class="fa-solid fa-phone mr-2"></i>Tienda de Repuestos y Laboratorio Diesel!</p></li>
-					</ul>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
-					<button class="px-4 py-2 border rounded-full text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					<div class="text-gray-600 mb-4">
+						<div class="text-xl font-semibold mt-2 b-2">Trujillo</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-map mr-2"></i></div>
+							<div>Av. Honorio Delgado N°520 Urb. Semirústica, El Bosque, Trujillo</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>914187239</div>
+						</div>
+						<div class="flex text-sm">
+							<div><i class="fa-solid fa-phone mr-2"></i></div>
+							<div>Tienda de Repuestos y Laboratorio Diesel!</div>
+						</div>
+					</div>
+					<div class="flex justify-center space-x-4">
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Llamar</button>
+						<button class="w-24 px-4 py-2 border rounded-xl text-center text-black border-black hover:bg-black hover:text-white">Mapa</button>
+					</div>
 				</div>
 			</div>
 		</div>
 		
 		<!-- Logos -->
 		<div class="container mx-auto mb-20">
-			<p class="text-4xl font-bold text-center">El repuesto que estas buscando<br>en un solo lugar</p>
-			<div class="flex justify-around mb-10 grid grid-cols-4 gap-5 p-10">
+			<p class="text-2xl sm:text-4xl font-bold text-center">El repuesto que estas buscando<br>en un solo lugar</p>
+			<div class="flex justify-around mb-10 grid grid-cols-2 sm:grid-cols-4 gap-5 p-10">
 				<!-- Icono Turbos -->
-				<div class="bg-white p-4 rounded-lg shadow-md">
+				<div class="bg-white text-black hover:bg-black hover:text-white p-4 rounded-lg shadow-md cursor-pointer" onclick="window.location.href='#';">
 					<div class="flex justify-center"><i class="fa-solid fa-engine fa-4x"></i></div>
 					<div><p class="text-center mt-2">Turbos</p></div>
 				</div>
 				<!-- Icono Toberas -->
-				<div class="bg-white p-4 rounded-lg shadow-md">
+				<div class="bg-white text-black hover:bg-black hover:text-white p-4 rounded-lg shadow-md cursor-pointer" onclick="window.location.href='#';">
 					<div class="flex justify-center"><i class="fa-solid fa-tank-water fa-4x"></i></div>
 					<div><p class="text-center mt-2">Toberas</p></div>
 				</div>
 				<!-- Icono Filtros -->
-				<div class="bg-white p-4 rounded-lg shadow-md">
+				<div class="bg-white text-black hover:bg-black hover:text-white p-4 rounded-lg shadow-md cursor-pointer" onclick="window.location.href='#';">
 					<div class="flex justify-center"><i class="fa-solid fa-oil-can fa-4x"></i></div>
 					<div><p class="text-center mt-2">Filtros</p></div>
 				</div>
 				<!-- Icono Inyectores -->
-				<div class="bg-white p-4 rounded-lg shadow-md">
-					<div class="flex justify-center"><i class="fa-regular fa-bottle-droplet fa-4x"></i></div>
+				<div class="bg-white text-black hover:bg-black hover:text-white p-4 rounded-lg shadow-md cursor-pointer" onclick="window.location.href='#';">
+					<div class="flex justify-center"><i class="fa-solid fa-bottle-droplet fa-4x"></i></div>
 					<div><p class="text-center mt-2">Inyectores</p></div>
 				</div>
 				<!-- Icono Bombas -->
-				<div class="bg-white p-4 rounded-lg shadow-md">
+				<div class="bg-white text-black hover:bg-black hover:text-white p-4 rounded-lg shadow-md cursor-pointer" onclick="window.location.href='#';">
 					<div class="flex justify-center"><i class="fa-solid fa-gas-pump fa-4x"></i></div>
 					<div><p class="text-center mt-2">Bombas</p></div>
 				</div>
 				<!-- Icono Valvulas -->
-				<div class="bg-white p-4 rounded-lg shadow-md">
+				<div class="bg-white text-black hover:bg-black hover:text-white p-4 rounded-lg shadow-md cursor-pointer" onclick="window.location.href='#';">
 					<div class="flex justify-center"><i class="fa-solid fa-car-battery fa-4x"></i></div>
 					<div><p class="text-center mt-2">Válvulas</p></div>
 				</div>
 				<!-- Icono Cabezales -->
-				<div class="bg-white p-4 rounded-lg shadow-md">
+				<div class="bg-white text-black hover:bg-black hover:text-white p-4 rounded-lg shadow-md cursor-pointer" onclick="window.location.href='#';">
 					<div class="flex justify-center"><i class="fa-solid fa-tire fa-4x"></i></div>
 					<div><p class="text-center mt-2">Cabezales</p></div>
 				</div>
 				<!-- Icono Actuadores -->
-				<div class="bg-white p-4 rounded-lg shadow-md">
+				<div class="bg-white text-black hover:bg-black hover:text-white p-4 rounded-lg shadow-md cursor-pointer" onclick="window.location.href='#';">
 					<div class="flex justify-center"><i class="fa-solid fa-oil-temperature fa-4x"></i></div>
 					<div><p class="text-center mt-2">Actuadores</p></div>
 				</div>
 				<!-- Icono Elementos -->
-				<div class="bg-white p-4 rounded-lg shadow-md">
+				<div class="bg-white text-black hover:bg-black hover:text-white p-4 rounded-lg shadow-md cursor-pointer" onclick="window.location.href='#';">
 					<div class="flex justify-center"><i class="fa-solid fa-gas-pump fa-4x"></i></div>
 					<div><p class="text-center mt-2">Elementos</p></div>
 				</div>
@@ -227,59 +307,59 @@ import Layout from '../layouts/Layout.astro';
 		<!-- Servicios -->
 		<div class="container mx-auto mb-20">
 			<p class="text-4xl font-bold text-center mb-4">Nuestros Servicios</p>
-			<div class="flex items-center justify-between grid grid-cols-2 gap-4">
-				<div class="bg-black rounded-2xl text-white flex">
+			<div class="flex items-center justify-center ms:justify-between grid grid-cols-1 sm:grid-cols-2 gap-4">
+				<div class="bg-black text-white hover:text-black hover:bg-white rounded-2xl flex mx-4 ms:mx-0 cursor-pointer" onclick="window.location.href='#';">
 					<div class="p-4 w-2/3">
-						<p class="font-bold text-3xl">Servicio 1</p>
-						<p class="text-lg">Lorem Ipsum dolor sit amet consecuentur</p>
+						<p class="font-bold text-2xl ms:text-3xl">Servicio 1</p>
+						<p class="text-base">Lorem Ipsum dolor sit amet consecuentur</p>
 					</div>
 					<div class="p-2 flex justify-end items-center w-1/3 pr-5">
-						<i class="fa-solid fa-chevron-right fa-4x"></i>
+						<i class="fa-solid fa-chevron-right fa-3x"></i>
 					</div>
 				</div>
-				<div class="bg-black rounded-2xl text-white flex">
+				<div class="bg-black text-white hover:text-black hover:bg-white rounded-2xl flex mx-4 ms:mx-0 cursor-pointer" onclick="window.location.href='#';">
 					<div class="p-4 w-2/3">
-						<p class="font-bold text-3xl">Servicio 2</p>
-						<p class="text-lg">Lorem Ipsum dolor sit amet consecuentur</p>
+						<p class="font-bold text-2xl ms:text-3xl">Servicio 2</p>
+						<p class="text-base">Lorem Ipsum dolor sit amet consecuentur</p>
 					</div>
 					<div class="p-2 flex justify-end items-center w-1/3 pr-5">
-						<i class="fa-solid fa-chevron-right fa-4x"></i>
+						<i class="fa-solid fa-chevron-right fa-3x"></i>
 					</div>
 				</div>
-				<div class="bg-black rounded-2xl text-white flex">
+				<div class="bg-black text-white hover:text-black hover:bg-white rounded-2xl flex mx-4 ms:mx-0 cursor-pointer" onclick="window.location.href='#';">
 					<div class="p-4 w-2/3">
-						<p class="font-bold text-3xl">Servicio 3</p>
-						<p class="text-lg">Lorem Ipsum dolor sit amet consecuentur</p>
+						<p class="font-bold text-2xl ms:text-3xl">Servicio 3</p>
+						<p class="text-base">Lorem Ipsum dolor sit amet consecuentur</p>
 					</div>
 					<div class="p-2 flex justify-end items-center w-1/3 pr-5">
-						<i class="fa-solid fa-chevron-right fa-4x"></i>
+						<i class="fa-solid fa-chevron-right fa-3x"></i>
 					</div>
 				</div>
-				<div class="bg-black rounded-2xl text-white flex">
+				<div class="bg-black text-white hover:text-black hover:bg-white rounded-2xl flex mx-4 ms:mx-0 cursor-pointer" onclick="window.location.href='#';">
 					<div class="p-4 w-2/3">
-						<p class="font-bold text-3xl">Servicio 4</p>
-						<p class="text-lg">Lorem Ipsum dolor sit amet consecuentur</p>
+						<p class="font-bold text-2xl ms:text-3xl">Servicio 4</p>
+						<p class="text-base">Lorem Ipsum dolor sit amet consecuentur</p>
 					</div>
 					<div class="p-2 flex justify-end items-center w-1/3 pr-5">
-						<i class="fa-solid fa-chevron-right fa-4x"></i>
+						<i class="fa-solid fa-chevron-right fa-3x"></i>
 					</div>
 				</div>
-				<div class="bg-black rounded-2xl text-white flex">
+				<div class="bg-black text-white hover:text-black hover:bg-white rounded-2xl flex mx-4 ms:mx-0 cursor-pointer" onclick="window.location.href='#';">
 					<div class="p-4 w-2/3">
-						<p class="font-bold text-3xl">Servicio 5</p>
-						<p class="text-lg">Lorem Ipsum dolor sit amet consecuentur</p>
+						<p class="font-bold text-2xl ms:text-3xl">Servicio 5</p>
+						<p class="text-base">Lorem Ipsum dolor sit amet consecuentur</p>
 					</div>
 					<div class="p-2 flex justify-end items-center w-1/3 pr-5">
-						<i class="fa-solid fa-chevron-right fa-4x"></i>
+						<i class="fa-solid fa-chevron-right fa-3x"></i>
 					</div>
 				</div>
-				<div class="bg-black rounded-2xl text-white flex">
+				<div class="bg-black text-white hover:text-black hover:bg-white rounded-2xl flex mx-4 ms:mx-0 cursor-pointer" onclick="window.location.href='#';">
 					<div class="p-4 w-2/3">
-						<p class="font-bold text-3xl">Servicio 6</p>
-						<p class="text-lg">Lorem Ipsum dolor sit amet consecuentur</p>
+						<p class="font-bold text-2xl ms:text-3xl">Servicio 6</p>
+						<p class="text-base">Lorem Ipsum dolor sit amet consecuentur</p>
 					</div>
 					<div class="p-2 flex justify-end items-center w-1/3 pr-5">
-						<i class="fa-solid fa-chevron-right fa-4x"></i>
+						<i class="fa-solid fa-chevron-right fa-3x"></i>
 					</div>
 				</div>
 			</div>
@@ -287,37 +367,46 @@ import Layout from '../layouts/Layout.astro';
 
 		<!-- Formulario -->
 		<div class="container mx-auto p-4">
-			<p class="text-2xl font-bold text-center mb-10">Agenda una revisión<br>en nuestro laboratorio</p>
-			<div class="bg-white mx-auto flex rounded-2xl">
-				<div class="w-1/2">
-				<img src="data:image/jpeg;base64,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" alt="Imagen del taller" class="w-full h-full object-cover rounded-2xl">
+			<p class="text-4xl font-bold text-center mb-10">Agenda una revisión<br>en nuestro laboratorio</p>
+			<div class="bg-white mx-auto flex rounded-2xl grid lg:grid-cols-2">
+				<div class="lg:h-full h-60">
+				<img src="https://lh5.googleusercontent.com/p/AF1QipMNhSjB9MqxODZ7ItbVmv7hyV1m-Nm8OePP77_x" alt="Imagen del taller" class="w-full h-full object-cover rounded-2xl">
 				</div>
-				<div class="w-1/2 p-8">
-				<form class="space-y-4">
-					<div>
-					<label for="nombre" class="block text-gray-700 text-sm font-bold mb-2">Nombre</label>
-					<input type="text" id="nombre" class="w-full p-2 border rounded-xl shadow" placeholder="Ingresa tu nombre">
+				<div class="p-8">
+					<form class="space-y-6 lg:space-y-4">
+						<div class="space-y-2">
+							<label for="nombre" class="block text-gray-700 text-sm font-bold">Nombre</label>
+							<input type="text" id="nombre" class="w-full p-2 border rounded-xl shadow" placeholder="Ingresa tu nombre">
+						</div>
+						<div class="space-y-2">
+							<label for="correo" class="block text-gray-700 text-sm font-bold">Correo</label>
+							<input type="email" id="correo" class="w-full p-2 border rounded-xl shadow" placeholder="Ingresa tu correo">
+						</div>
+						<div class="space-y-2">
+							<label for="celular" class="block text-gray-700 text-sm font-bold">Celular</label>
+							<input type="tel" id="celular" class="w-full p-2 border rounded-xl shadow" placeholder="Ingresa tu celular">
+						</div>
+						<div class="border border-black bg-black text-white font-bold text-4xl rounded-full hover:bg-gray-200 hover:text-black">
+							<button type="submit" class="w-full py-2 pb-3 ">Registrarse</button>
+						</div>
+					</form>
+					<div class="flex justify-center">
+						<div class="flex rounded-b-lg bg-gray-300">
+							<div><i class="fa-regular fa-stopwatch m-1 ml-4"></i></div>
+							<div><p class="text-xs text-gray-600 m-1 mr-4">Válido durante <strong class="bond">15:00</strong></p></div>
+						</div>
 					</div>
-					<div>
-					<label for="correo" class="block text-gray-700 text-sm font-bold mb-2">Correo</label>
-					<input type="email" id="correo" class="w-full p-2 border rounded-xl shadow" placeholder="Ingresa tu correo">
-					</div>
-					<div>
-					<label for="celular" class="block text-gray-700 text-sm font-bold mb-2">Celular</label>
-					<input type="tel" id="celular" class="w-full p-2 border rounded-xl shadow" placeholder="Ingresa tu celular">
-					</div>
-					<button type="submit" class="w-full bg-black text-white font-bold py-2 pb-3 text-4xl rounded-full hover:bg-gray-700">Registrarse</button>
-					<p class="text-xs text-center text-gray-600 mt-4">Válido durante 15:00</p>
-				</form>
 				</div>
 			</div>
 		</div>
 	</main>
+
 	
+
 	<footer class="bg-[#f1f1f1] pt-10 pb-5">
 		<div class="bg-[#38c6bd] p-4 text-center text-white rounded-2xl">
 			<div class="container mx-auto">
-				<div class="flex justify-center space-x-20">
+				<div class="flex justify-center space-x-8 sm:space-x-20">
 				<a href="https://facebook.com" class="hover:text-teal-300">
 					<i class="fa-brands fa-facebook fa-2x"></i>
 				</a>
@@ -341,3 +430,21 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</footer>
 </Layout>
+
+<!-- <script>
+	let currentSlide = 0;
+	const slides = document.querySelectorAll('#carousel img');
+	const totalSlides = slides.length;
+
+	document.getElementById('nextBtn').addEventListener('click', () => {
+		slides[currentSlide].classList.add('hidden');
+		currentSlide = (currentSlide + 1) % totalSlides;
+		slides[currentSlide].classList.remove('hidden');
+	});
+
+	document.getElementById('prevBtn').addEventListener('click', () => {
+		slides[currentSlide].classList.add('hidden');
+		currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+		slides[currentSlide].classList.remove('hidden');
+	});
+</script> -->
